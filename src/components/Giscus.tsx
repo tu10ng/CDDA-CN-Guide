@@ -6,7 +6,7 @@ export function Giscus() {
     // Update the document title using the browser API
     let s = document.createElement('script')
     s.src = 'https://giscus.app/client.js'
-    s.setAttribute('data-repo', 'SurFlurer/CDDA-CN-Guide')
+    s.setAttribute('data-repo', 'tu10ng/CDDA-CN-Guide')
     s.setAttribute('data-repo-id', 'R_kgDOJMqqKA')
     s.setAttribute('data-category', 'Announcements')
     s.setAttribute('data-category-id', 'DIC_kwDOJMqqKM4CVHjB')

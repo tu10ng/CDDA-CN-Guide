@@ -10,14 +10,9 @@ const config = {
   tagline: "本文是基于纯净原版的「攻略手册」，本意是为玩家提供一些游戏资料、建议与各类机制的粗略解释。\n开始阅读后，左侧目录为章节目录，右侧目录为章内目录。",
   favicon: 'img/cataicon.ico',
 
-  // Set the production url of your site here
-  url: 'https://surflurer.github.io',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
+  url: 'https://tu10ng.github.io',
   baseUrl: '/CDDA-CN-Guide/',
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Surflurer', // Usually your GitHub org/user name.
+  organizationName: 'tu10ng', // Usually your GitHub org/user name.
   projectName: 'CDDA-CN-Guide', // Usually your repo name.
   deploymentBranch: 'gh-pages',
   onBrokenLinks: 'throw',
@@ -41,7 +36,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/SurFlurer/CDDA-CN-Guide/edit/master/CataclysmDDA综合攻略手册/',
+            'https://github.com/tu10ng/CDDA-CN-Guide/edit/master/CataclysmDDA综合攻略手册/',
         },
         blog: {
           showReadingTime: true,
@@ -76,7 +71,7 @@ const config = {
             label: '目录',
           },
           {
-            href: 'https://github.com/SurFlurer/CDDA-CN-Guide',
+            href: 'https://github.com/tu10ng/CDDA-CN-Guide',
             label: 'GitHub',
             position: 'right',
           },

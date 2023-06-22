@@ -14,7 +14,7 @@
 ## 为攻略手册贡献内容的方式
 
 - 在[语雀文档](https://www.yuque.com/silencess/cdda)注册或登录后发表评论或进行编辑。
-- 在右上角的[github项目](https://github.com/SurFlurer/CDDA-CN-Guide)中提交Pull Request。
+- 在右上角的[github项目](https://github.com/tu10ng/CDDA-CN-Guide)中提交Pull Request。
 - 利用每一章的页尾“编辑此页”跳转到GitHub在线编辑对应文件（需要注册/登录），编辑完成后点击“Commit Changes”。
 - 在每一章的页尾评论区利用GitHub账号登录后，提出建议和编写内容（支持markdown语法）
 - 加入玩家社群，联系项目管理员。

@@ -8,6 +8,8 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
     - name: Checkout-docusaurus
       uses: actions/checkout@v3
@@ -16,7 +18,7 @@ jobs:
         
     - name: Checkout-docs
       run: |
-        git clone --depth=1 -b master https://github.com/SurFlurer/CDDA-CN-Guide '${{ github.workspace }}/master'
+        git clone --depth=1 -b master https://github.com/tu10ng/CDDA-CN-Guide '${{ github.workspace }}/master'
     - name: pretreatment
       run: |
         rm -rf ${{ github.workspace }}/docs
@@ -29,7 +31,7 @@ jobs:
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v4
       with:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        # ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BRANCH: gh-pages
         FOLDER: build
         
